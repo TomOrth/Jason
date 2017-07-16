@@ -1,0 +1,28 @@
+{
+  "name": "jason",
+  "version": "1.0.0",
+  "description": "JSON to ES6 class converter middleware for express",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atf1999/Jason.git"
+  },
+  "keywords": [
+    "jason",
+    "json",
+    "middleware",
+    "express"
+  ],
+  "author": "Tom Orth (atf1999)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atf1999/Jason/issues"
+  },
+  "homepage": "https://github.com/atf1999/Jason#readme"
+}
