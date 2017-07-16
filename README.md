@@ -8,7 +8,7 @@ Jason uses the ES6 Reflect api, which requires at least Node.js version 6.4.0
 
 ## Installing
 
-```npm install Jason```
+```npm install jason-parse```
 
 ## Demonstration
 
