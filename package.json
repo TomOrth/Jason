@@ -1,5 +1,5 @@
 {
-  "name": "Jason",
+  "name": "jason-parse",
   "version": "1.0.0",
   "description": "JSON to ES6 class converter middleware for express",
   "main": "index.js",
