@@ -49,7 +49,7 @@ routes.post('/<name>', jason.array(User, 'users'), function(req, res) {
 * Tom Orth (atf1999)
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE file for details
 
 ## Acknowledgements
 * Spring REST for doing this in their Java web framework and inspiring me to do this for Node.js
