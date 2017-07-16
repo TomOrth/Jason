@@ -1,6 +1,6 @@
 # Jason
 
-JSON to ES6 class object converter middleware for express
+JSON to ES6 class object converter middleware for Express
 
 ## Prerequisites
 
