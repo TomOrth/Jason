@@ -45,6 +45,8 @@ routes.post('/<name>', jason.array(User, 'users'), function(req, res) {
     //req.body.users contains an array of the parsed entities '[{"name":"foo"},{"name","bar"}]'
 });
 ```
+Please see ```index.js``` for documentation in the form of docstrings
+If you wish to see an example, launch the express server in the ```example``` directory by first doing ```node index.js``` and then by doing ```node post.js```. Then, look at both consoles and you will see the parser at work
 ## Authors
 * Tom Orth (atf1999)
 

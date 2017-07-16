@@ -1,6 +1,9 @@
 /**
-* Function to create and define an entity
-*/
+ * Function to create and define an entity
+ * @param object The class to be created
+ * @param payload The JSON object to parse
+ * @return The newly created object
+ */
 function create(object, payload) {
     var entity = Reflect.construct(object, []);
     for(key in payload) {
@@ -10,6 +13,11 @@ function create(object, payload) {
 }
 
 module.exports = {
+    /**
+     * Function to use when you wish to create one object
+     * @param object The class to be created
+     * @param payload The JSON object to parse
+     */
     single: function(object, name) {
         return function(req, res, next) {
             var entity = create(object, JSON.parse(req.body.entity));
@@ -17,6 +25,12 @@ module.exports = {
             next();
         }
     },
+ 
+    /**
+     * Function to use when you wish to create multiple objects
+     * @param object The class to be created
+     * @param payload The JSON object to parse
+     */
     array: function(object, name) {
         return function(req, res, next) {
             var entities = [];
